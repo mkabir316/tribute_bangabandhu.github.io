@@ -1,0 +1,107 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 10px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+#image-caption {
+  font-size: 35px;
+  font-family: 'Cherry Swash';
+  color: #f00
+}
+
+#title {
+  
+  border: 2px solid black;
+  padding: -10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: #ff0;
+  font-family: 'Amita';
+  font-size: 75px;
+  background: linear-gradient(45deg, red, green);
+  text-align: center;
+  position: relative;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+
+}
+#image {
+  border: 2px solid black;
+  
+  
+}
+#sub-image {
+  border: 2px solid black;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 35%;
+}
+.tribute-link {
+  font-family: 'Cherry Swash'
+
+
+}
+.body-weight {
+  background-color: #d3d3d3;
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7483a92d-f396-4baa-84a1-405981a6fae3/d2fhf8u-78f2bfda-20b4-43fa-8e60-ec1ee0b1801c.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNzQ4M2E5MmQtZjM5Ni00YmFhLTg0YTEtNDA1OTgxYTZmYWUzXC9kMmZoZjh1LTc4ZjJiZmRhLTIwYjQtNDNmYS04ZTYwLWVjMWVlMGIxODAxYy5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.i8S_F2xi0xfQV733tLUxJ_xPjB8AO0RdDHOKmt5sjZo);
+
+}
+.Rolling-Text {
+  font-size: 22px;
+  color: #f00;
+  font-family: 'Cherry Swash';
+
+}
+h2 {
+  font-family: 'Amita';
+  font-size: 30px;
+  color: #0000ff;
+}
+
+.para {
+  font-size: 15px;
+  font-family: 'Cinzel Decorative';
+  font-weight: bold;
+}
+#sub-image-caption {
+  font-weight: bold;
+  font-family: 'Cherry Swash';
+  color: #f00
+}
+html {
+  scroll-behavior: smooth;
+}
